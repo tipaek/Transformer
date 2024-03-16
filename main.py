@@ -20,6 +20,3 @@ if __name__ == "__main__":
     out = model(x, trg[:, :-1])
     print(out.shape)
 
-
-if __name__ == "__main__":
-    main()
